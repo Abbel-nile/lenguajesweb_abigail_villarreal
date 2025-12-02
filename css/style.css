@@ -7,17 +7,39 @@ box-sizing: border-box;
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.cabecera {
+    background-color:rgb(170, 101, 101);
+    color:blanchedalmond;
+    padding: 10px 0;
+    margin-bottom: 20px;
+
+}
+
+.contenedor-cabecera {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+display: flex;
+align-items: left;
+gap: 30px;
+height: 100px;
+}
+
+.logo img {
+    height: 100px;
+    display:block ;
+
+
 
 }
 
 
-
-
-
-h1 {
-
-background-color: rgb(26, 190, 190);
-color: blue;
-
-}
